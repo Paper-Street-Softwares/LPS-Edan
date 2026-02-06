@@ -221,11 +221,11 @@ function FooterNovoTemplate({
               )}
             </div>
 
-            <hr
+            {/* <hr
               className={`pb-6 border-t ${text} ${
                 colorMode === 'light' ? 'opacity-90' : 'opacity-20'
               } w-full`}
-            />
+            /> */}
 
             {/* Footer Bottom */}
             <div
