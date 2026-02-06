@@ -79,7 +79,7 @@ export default function Index() {
 
             <StepsNovoTemplate colorMode={colorMode} />
             {/* <BlogPosts colorMode={colorMode} /> */}
-            {/* <FaqNovoTemplate colorMode={colorMode} /> */}
+            <FaqNovoTemplate colorMode={colorMode} />
             <FooterNovoTemplate
               colorMode={colorMode}
               mapa={false}

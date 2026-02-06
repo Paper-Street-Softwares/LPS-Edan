@@ -116,7 +116,7 @@ const content = {
       miniTag: 'Contabilidade para cuidar da sua empresa',
       title: (
         <h1>
-          Há mais de{' '}
+          Mais de{' '}
           <span className="destaque relative italic font-light">
             40 anos
             <span>
@@ -146,7 +146,8 @@ const content = {
               </svg>
             </span>
           </span>{' '}
-          cuidando da sua contabilidade. Da sua tranquilidade também.
+          de experiência em contabilidade, ajudando empresas a operar com mais
+          tranquilidade
         </h1>
       ),
       subtitle: <p></p>,
@@ -156,7 +157,7 @@ const content = {
       alt: 'Imagem ilustrativa da Seção Início',
       ctaButtonAriaLabel:
         'Botão para chamada de ação para contato pelo whatsapp',
-      ctaButtonText: 'Falar com Contador',
+      ctaButtonText: 'Falar com Contador Agora',
       ctaButtonTextSecondary: 'A_Definir',
       obsHero: {
         icon: <LucideIdCard />,
@@ -555,25 +556,29 @@ const content = {
     //   blogLink: 'mauromoncao.wordpress.com', //sem "https://"
     // },
     faq: {
-      miniTag: 'A_Definir',
-      title: 'A_Definir',
-      subtitle: 'A_Definir',
+      miniTag: 'TIRE SUAS DÚVIDAS',
+      title: 'Perguntas Frequentes',
+      subtitle: 'Confira as perguntas abaixo para esclarecer suas dúvidas. ',
       questions: {
         question1: {
-          question: 'A_Definir',
-          answer: 'A_Definir',
+          question: 'Quais serviços a contabilidade oferece?',
+          answer:
+            'Atuamos com contabilidade completa para empresas e profissionais, incluindo abertura de empresa, escrituração contábil e fiscal, folha de pagamento, obrigações acessórias e suporte na gestão financeira.',
         },
         question2: {
-          question: 'A_Definir',
-          answer: 'A_Definir',
+          question: 'Quais tipos de empresas podem ser atendidas?',
+          answer:
+            'Atendemos microempresas, empresas de pequeno e médio porte e profissionais liberais, adaptando os serviços conforme o porte, regime tributário e necessidades do negócio.',
         },
         question3: {
-          question: 'A_Definir',
-          answer: 'A_Definir',
+          question: 'Como funciona a troca de contador?',
+          answer:
+            'A troca é simples e legal. Cuidamos de todo o processo de transição, solicitando a documentação necessária e garantindo continuidade das obrigações fiscais sem prejuízo para a empresa.',
         },
         question4: {
-          question: 'A_Definir',
-          answer: 'A_Definir',
+          question: 'A contabilidade ajuda a reduzir impostos?',
+          answer:
+            'Sim. Por meio de planejamento tributário e enquadramento correto, buscamos reduzir a carga tributária dentro da legalidade, evitando riscos e problemas futuros.',
         },
       },
       paragraph: 'Clique aqui caso tenha mais dúvidas',

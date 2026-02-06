@@ -21,7 +21,7 @@ function FaqNovoTemplate({ colorMode }) {
       text = 'text-corTitulosPreto'
       text = 'text-corTitulosPreto'
       hoverText = 'hover:text-primaryDark'
-      backgroundMode = 'bg-terciary/60'
+      backgroundMode = 'bg-white'
 
       break
     case 'dark':
@@ -86,6 +86,7 @@ function FaqNovoTemplate({ colorMode }) {
               href={content.texts.links.ctaWhatsapp}
               className="w-fit"
               target="_blank"
+              onClick={() => gtag_report_conversion()}
             >
               Clique aqui caso tenha mais dúvidas
             </a>
