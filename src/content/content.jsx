@@ -103,7 +103,7 @@ const content = {
         'Início',
         'Serviços',
         'Sobre',
-        // 'Perguntas',
+        'Perguntas',
         // 'Blog',
         // 'Mapa',
       ],
