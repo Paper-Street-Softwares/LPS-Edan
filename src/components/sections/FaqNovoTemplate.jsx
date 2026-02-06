@@ -80,23 +80,23 @@ function FaqNovoTemplate({ colorMode }) {
           </div>
 
           <div
-            className={`flex justify-center mx-auto mt-12 scale-100 hover:scale-90 duration-500 w-fit transition-all cursor-pointer hover:underline ${textOpacity}`}
+            className={`flex justify-center mx-auto mt-12 w-fit transition-all ${textOpacity}`}
           >
-            <a
+            {/* <a
               href={content.texts.links.ctaWhatsapp}
               className="w-fit"
               target="_blank"
               onClick={() => gtag_report_conversion()}
             >
               Clique aqui caso tenha mais dúvidas
-            </a>
-            {/* <ButtonReflexo
+            </a> */}
+            <ButtonReflexo
               icon={content.texts.svgs.wpp}
               link={content.texts.links.ctaWhatsapp}
               label={content.texts.hero.ctaButtonText}
               colorMode={colorMode}
               className="my-0"
-            /> */}
+            />
           </div>
         </section>
       </SectionWrapper>
