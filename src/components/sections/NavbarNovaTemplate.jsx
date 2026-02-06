@@ -75,14 +75,11 @@ function NavbarNovaTemplate({
                 : 'py-3 w-[30%] tablet1:w-[30%] tablet2:w-[30%] desktop1:w-[15%] desktop3:w-[15%] transition-all duration-700'
             }`}
           >
-            <Link
-              smooth={true}
-              duration={500}
-              offset={-90}
-              // spy={true}
-              // hashSpy={true}
+            <a
               className="cursor-pointer"
-              aria-label="Link de retorno a Hero"
+              href="/"
+              onClick={() => window.location.reload()}
+              aria-label="recarregar página "
             >
               <img
                 src={content.texts.navbar.logo.img}
@@ -100,7 +97,7 @@ function NavbarNovaTemplate({
                 height={128}
                 fetchPriority="high"
               />
-            </Link>{' '}
+            </a>
           </div>
 
           {/* Desktop Nav */}
