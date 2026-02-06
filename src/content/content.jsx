@@ -188,7 +188,9 @@ const content = {
     important: {
       miniTag: 'Dúvidas comuns',
       title:
-        'Se você já se fez alguma dessas perguntas, sua contabilidade merece atenção agora.',
+        'Se você já se fez alguma dessas perguntas, sua contabilidade merece atenção agora',
+      subtitle:
+        'Questões que parecem simples, mas que costumam custar caro quando ninguém explica direito.',
       cards: {
         card1: {
           title: 'Será que estou pagando imposto a mais?',
