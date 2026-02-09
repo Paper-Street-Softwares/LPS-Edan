@@ -107,8 +107,8 @@ function FeaturesNovaTemplate({ colorMode, frasesDestaque, buttons }) {
                       src={content.texts.features.imgFeatures}
                       alt={content.texts.features.alt}
                       className="w-full h-full object-cover scale-105 hover:scale-100 rounded-2xl transition-transform duration-700"
-                      width={798}
-                      height={798}
+                      width={653}
+                      height={653}
                     />
                   </div>
 
